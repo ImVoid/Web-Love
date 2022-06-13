@@ -50,7 +50,7 @@
 						<span class="say"> 但是我仍然想得到这条解开你枷锁的钥匙</span><br>
 						<span class="say"> 尽管我不知道要作何种努力</span><br>
                         <span class="say"> 同时我也请你给我解开"爱情是婚姻中的奢侈品"的枷锁</span>
-                        <span class="say"> 因为遇见你已经花光我毕生所有的运气</span>
+                        <span class="say"> 因为遇见你已经花光我余生所有的运气</span>
 			        </div>
                 </div>
                 <div id="clock-box">
@@ -196,7 +196,9 @@
 
         var textAnimate = eval(Jscex.compile("async", function () {
 		    var together = new Date();
-		    together.setFullYear(2022, 5,20); 			//时间年月日
+		    together.setFullYear(2022); 			//时间年月日
+			together.setMonth(5);
+			together.setDate(20);
 		    together.setHours(20);						//小时
 		    together.setMinutes(0);					//分钟
 		    together.setSeconds(0);					//秒前一位
